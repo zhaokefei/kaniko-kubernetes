@@ -1,2 +1,2 @@
 FROM ubuntu
-ENTRYPOINT ["/bin/bash", "-c", "watch date"]
+CMD watch date
